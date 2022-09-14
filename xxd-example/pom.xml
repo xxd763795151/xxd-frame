@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>xxd-frame-parent</artifactId>
+        <groupId>com.xxd</groupId>
+        <version>1.0.0</version>
+        <relativePath>../xxd-frame-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>xxd-example</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>xxd-example-domain</module>
+        <module>xxd-example-dao</module>
+        <module>xxd-example-iservice</module>
+        <module>xxd-example-service-impl</module>
+        <module>xxd-example-web</module>
+        <module>xxd-example-common</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.xxd</groupId>
+                <artifactId>xxd-example-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.xxd</groupId>
+                <artifactId>xxd-example-iservice</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.xxd</groupId>
+                <artifactId>xxd-example-service-impl</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.xxd</groupId>
+                <artifactId>xxd-example-dao</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.xxd</groupId>
+                <artifactId>xxd-example-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

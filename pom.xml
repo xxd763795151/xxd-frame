@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xxd</groupId>
+    <artifactId>xxd-frame</artifactId>
+    <version>1.0.0</version>
+    <modules>
+        <module>xxd-frame-deps</module>
+        <module>xxd-frame-core</module>
+        <module>xxd-frame-archetype</module>
+        <module>xxd-frame-parent</module>
+        <module>xxd-example</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <name>xxd-frame</name>
+    <description>unified java frame</description>
+
+    <organization>
+        <name>xuxd</name>
+        <url>https://blog.csdn.net/x763795151</url>
+    </organization>
+
+    <distributionManagement>
+    </distributionManagement>
+
+    <repositories>
+    </repositories>
+    <pluginRepositories>
+    </pluginRepositories>
+</project>
